@@ -1,0 +1,250 @@
+body {
+    background: #262832;
+    margin: 0;
+}
+
+.header-wrap {
+    background: url(../img/m-h-night.jpg) no-repeat;
+    background-size: cover;
+    padding-left: 12%;
+    padding-bottom: 150px;
+    border-bottom-right-radius: 500px;
+}
+
+.landing-logo {
+    font-family: "Fresca", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.landing-logo p {
+    display: inline-block;
+    padding-left: 10px;
+    color: white;
+    line-height: 20px;
+}
+
+.landing-logo span {
+    display: block;
+    font-size: 12px;
+    font-weight: 200;
+    text-indent: 2px;
+}
+
+.header_heading {
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    max-width: 30%;
+    padding: 60px 0;
+    z-index: 5;
+    position: relative;
+}
+
+.header_heading:before {
+    content: "";
+    height: 60px;
+    width: 255px;
+    background: #ff4232;
+    position: absolute;
+    top: 58%;
+    z-index: -5;
+}
+
+.header_text, .section_card_wrap .section_card, footer .footer-wrap .footer_text, footer .footer-wrap .footer-cr {
+    font-family: "Fresca", sans-serif;
+    max-width: 35%;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.header_button {
+    font-family: "Fresca", sans-serif;
+    color: white;
+    background: #eda900;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 30px;
+}
+
+.header_button:focus {
+    outline: none;
+}
+
+.header_button:hover {
+    background: #ffb808;
+}
+
+.login {
+    color: white;
+    display: inline-block;
+    margin-left: 200px;
+}
+
+.section,
+.footer-wrap {
+    padding: 0 100px;
+    position: relative;
+}
+
+.section_text {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    position: relative;
+    z-index: 5;
+    color: white;
+}
+
+.section_text::before {
+    content: "";
+    height: 60px;
+    width: 185px;
+    background: #ff4232;
+    position: absolute;
+    bottom: 10px;
+    left: 50.5%;
+    z-index: -5;
+}
+
+.section_link {
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.section_card_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+}
+
+.section_card_wrap .section_card {
+    padding: 20px;
+    width: 80%;
+    background: #3d4151;
+    margin: 20px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.section_card_wrap .section_card img {
+    border-radius: 15px;
+    padding: 10px;
+    width: -webkit-fill-available;
+}
+
+.section_card_wrap .section_card_text {
+    text-align: justify;
+    padding: 15px 40px;
+}
+
+.section_card_wrap .section_card_heading {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+.section_card_wrap .section_card_heading::before {
+    content: "";
+    width: 100%;
+    height: 15px;
+    position: absolute;
+    z-index: -5;
+    left: 0;
+    top: 50%;
+}
+
+.section_banner {
+    width: 634px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: linear-gradient(90deg, #e49a00 0%, #a3304f 100%);
+    position: absolute;
+    bottom: calc(0% - 60px);
+    left: calc(50% - 321px);
+}
+
+.section_banner .section_banner_heading {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    z-index: 5;
+    color: white;
+}
+
+.section_banner .section_banner_heading:before {
+    content: "";
+    height: 35px;
+    width: 17%;
+    background: #ff4232;
+    position: absolute;
+    bottom: 1%;
+    left: 29%;
+    z-index: -5;
+}
+
+.section_banner .section_banner_text {
+    font-family: "Fresca", sans-serif;
+    color: #d0d0c5;
+}
+
+.section_banner .section_banner_button {
+    width: max-content;
+    height: max-content;
+    padding: 10px 20px;
+    text-align: center;
+    align-self: center;
+    background: #eda900;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+}
+
+.section_banner .section_banner_button:hover {
+    background: #ffb808;
+}
+
+footer {
+    background: #3d4151;
+}
+
+footer .footer-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+footer .footer-wrap .footer_logo {
+    width: 20%;
+    justify-content: left;
+}
+
+footer .footer-wrap .footer_logo p {
+    color: white;
+}
+
+footer .footer-wrap .footer_text {
+    color: white;
+    padding: 10px 110px;
+    width: 40%;
+}
+
+footer .footer-wrap .footer-cr {
+    width: 40%;
+    padding-top: 26px;
+    text-align: center;
+    color: white;
+    align-self: flex-end;
+}

@@ -1,0 +1,42 @@
+/* TODO: your styles goes here*/
+.folder:before {
+    width: 45px;
+    height: 45px;
+    display: block;
+    /*
+    background-image:url(http://icons.iconarchive.com/icons/wilnichols/alumin-folders/128/Generic-Purple-Folder-icon.png);
+    */
+    content: '';
+    background-size: cover;
+}
+
+.folder {
+    display: flex;
+}
+
+.file:before {
+    width: 45px;
+    height: 45px;
+    display: block;
+    /*
+    background-image:url(http://icons.iconarchive.com/icons/icons8/windows-8/128/Very-Basic-File-icon.png);
+    */
+    content: '';
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    padding-top: 8px;
+}
+
+body > ul > li {
+    /*
+    border-top: 3px solid #0000FF;
+    */
+}
+
+ul > li {
+    margin-left: -20px;
+    margin-top: 20px;
+}

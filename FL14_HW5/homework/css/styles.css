@@ -1,0 +1,369 @@
+/*
+  * Colors references
+
+  header bg-color: #99ccff;
+  footer bg-color: #162b4d;
+  header hover: #162b4d;
+  text color: #484848;
+
+  .post-1 {
+    background: #F3D250;
+  }
+  .post-2 {
+    background: #8D8741;
+  }
+  .post-3 {
+    background: #659DBD;
+  }
+  .post-4 {
+    background: #DAAD86;
+  }
+
+  * Feel free to add new colors if you need it
+ */
+
+
+/* Your styles go here */
+
+
+body {
+    font-family: roboto;
+}
+
+.post-1 {
+    background: #F3D250;
+}
+
+.post-2 {
+    background: #8D8741;
+}
+
+.post-3 {
+    background: #659DBD;
+}
+
+.post-4 {
+    background: #DAAD86;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #99ccff;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+header .container h1 {
+    font-weight: lighter;
+    color: #fff;
+    padding: 3vmin;
+}
+
+header .container h1 span {
+    color: #484848;
+}
+
+.burger-menu {
+    display: none;
+}
+
+header nav a {
+    display: inline-block;
+    text-align: center;
+    vertical-align: center;
+    padding: 4vh 2vw;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+}
+
+nav a:hover {
+    background-color: #162b4d;
+}
+
+section {
+    background-image: url(../img/section1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.section_content {
+    color: white;
+    padding: 20vh 1vw 10vh 1vw;
+}
+
+.section_content h3 {
+    padding-bottom: 10px;
+    font-weight: lighter;
+    font-size: 200%;
+    line-height: 1;
+}
+
+.section_content p {
+    font-weight: lighter;
+    font-size: 100%;
+
+}
+
+main {
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    align-items: start;
+    display: grid;
+    grid-area: main;
+    grid-template-columns: 3fr 1.5fr;
+    grid-template-areas: "article aside";
+    grid-gap: 3vmin;
+}
+
+article {
+    display: grid;
+    align-items: stretch;
+    grid-area: article;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr;
+}
+
+article .container {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    flex-direction: row;
+}
+
+article .container:nth-child(2n) {
+    direction: rtl;
+}
+
+.box {
+    margin: 0;
+    list-style: none;
+    height: 100%;
+    position: relative;
+    flex-direction: row;
+}
+
+.box:hover {
+    filter: opacity(0.5);
+    cursor: pointer;
+}
+
+article .content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+main h3 {
+    font-weight: lighter;
+    font-size: 215%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1;
+    color: #484848;
+}
+
+.content p {
+    font-weight: lighter;
+    font-size: 110%;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #484848;
+}
+
+.date {
+    font-weight: lighter;
+    font-size: 200%;
+    text-align: center;
+    color: #484848;
+    padding-top: 20px;
+}
+
+.date span {
+    font-weight: lighter;
+    font-size: 200%;
+    text-align: center;
+    opacity: 0.5;
+}
+
+aside {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-area: aside;
+    grid-gap: 3vmin;
+}
+
+aside .container {
+    background-color: #fff;
+    border: 2px solid #77827d;
+    padding-bottom: 4vh;
+}
+
+h5 {
+    padding: 20px;
+    font-weight: lighter;
+    font-size: 180%;
+}
+
+h5 + p {
+    padding: 0 20px 20px 20px;
+    font-weight: lighter;
+    opacity: 0.5;
+    font-size: 100%;
+}
+
+main .btn {
+    border: 2px groove #77827d;
+    margin-left: 20px;
+    padding: 8px;
+    background-color: #fff;
+}
+
+main .btn:hover {
+    border: none;
+    cursor: pointer;
+    border-bottom: 2px groove #77827d;
+}
+
+footer {
+    background-color: #162b4d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5vmin;
+    color: #fff;
+}
+
+.copyright p, .design {
+    font-weight: lighter;
+    font-size: 110%;
+    color: #fff;
+}
+
+@media screen and (min-width: 1280px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+    body {
+        padding: 0 2%;
+        width: 100%;
+    }
+
+    h1,
+    h3,
+    p,
+    .content {
+        margin: 0;
+        padding: 0;
+    }
+
+    header .container {
+        flex-direction: column;
+    }
+
+    .burger-menu {
+        display: block;
+        margin: 1vh auto;
+        color: #fff;
+    }
+
+    header h1 {
+        margin: 0 auto;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    main {
+        display: grid;
+        grid-area: main;
+        grid-template-columns: 3fr 2fr;
+        grid-template-areas: "article aside";
+        grid-gap: 3vmin;
+    }
+
+    article .container {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        flex-direction: column;
+    }
+
+    article .container:nth-child(2n) {
+        direction: ltr;
+    }
+
+    article .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: start;
+    }
+
+    .date {
+        order: 3;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr;
+        grid-gap: 0;
+        grid-template-areas:"article"
+                        "aside"
+    }
+
+    aside {
+        padding: 0;
+        margin: 0;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        max-width: 100%;
+        flex-direction: column;
+    }
+}

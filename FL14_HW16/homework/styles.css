@@ -1,0 +1,17 @@
+#root {
+    padding: 40px;
+    width: 100%;
+    background-color: bisque;
+}
+
+.book-list {
+    width: 50%;
+    height: 200px;
+    padding: 20px;
+}
+
+.book-characteristic {
+    width: 50%;
+    height: 200px;
+    padding: 20px;
+}

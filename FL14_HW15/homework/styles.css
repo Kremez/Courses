@@ -1,0 +1,80 @@
+/* START: Task 1 Styles */
+#task1 {
+    width: 216px;
+    height: 216px;
+}
+
+.block {
+    width: 70px;
+    height: 70px;
+    float: left;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin: 1px;
+    padding-top: 25px;
+    text-align: center;
+}
+
+
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+
+.notification {
+    width: 360px;
+    border: 2px solid;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    display: none;
+}
+
+.number {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 330px;
+    border: 2px solid black;
+}
+
+.submit {
+    height: 55px;
+    width: 55px;
+}
+
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+
+#task3 {
+    position: relative;
+    display: inline-block;
+}
+
+.court {
+    width: 600px;
+    height: 330px;
+}
+
+.ball {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 145px;
+    left: 280px;
+    transition: 1s all;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+}
+
+.score-message {
+    display: none;
+    text-align: center;
+    padding: 10px;
+    color: tomato;
+}
+
+/* END: Task 3 Styles */

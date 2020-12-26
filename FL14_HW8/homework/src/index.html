@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW_8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="btn-wrapper">
+        <button class="btn start-button" onclick="showQuestion()">Start new game</button>
+        <button class="btn skip-button" id="skipButton" onclick="skipQuestion()">Skip question</button>
+    </div>
+    <div class="message"></div>
+    <div class="question-section-disabled">
+        <div class="question-section" id="questionSection">
+            <div class="question"></div>
+            <div class="answer-section"></div>
+        </div>
+        <div class="total-prize"></div>
+        <div class="current-prize"></div>
+    </div>
+</div>
+
+<script src="js/questions.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

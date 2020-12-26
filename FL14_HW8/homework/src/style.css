@@ -1,0 +1,71 @@
+.container {
+    margin: 20px;
+}
+
+body {
+    background-color: violet;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skip-button {
+    display: none;
+}
+
+.btn {
+    padding: 10px;
+    color: white;
+    background-color: #329497;
+    font-weight: 600;
+}
+
+.answer-variant {
+    display: block;
+}
+
+.answer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+    width: 20%;
+    height: 100px;
+    background-color: #c93999;
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+
+.question {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.total-prize {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.current-prize {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.message {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
